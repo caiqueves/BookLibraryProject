@@ -16,16 +16,16 @@ This is the backend of a library book management application. The API is built w
 
 ## 🛠️ Project Structure
 
--- **/BookLibraryProject.Api → Presentation layer (Minimal API, Program.cs, Controllers)
--- **/BookLibraryProject.Domain → Entities, repository interfaces, and pure business rules
--- **/BookLibraryProject.App → Use cases (Application Layer), DTOs, and application services
--- **/BookLibraryProject.Data → Repository implementations, DbContext, and Migrations
--- **/BookLibraryProject.IoC → Dependency injection and service configuration
+- **/BookLibraryProject.Api → Presentation layer (Minimal API, Program.cs, Controllers)
+- **/BookLibraryProject.Domain → Entities, repository interfaces, and pure business rules
+- **/BookLibraryProject.App → Use cases (Application Layer), DTOs, and application services
+- **/BookLibraryProject.Data → Repository implementations, DbContext, and Migrations
+- **/BookLibraryProject.IoC → Dependency injection and service configuration
 
 
 ## 📘 Endpoints Principais
 
--- **GET /BookLibrary/search – List books by field and value
+- **GET /BookLibrary/search – List books by field and value
 
 
 ## 📦 How to Run the Project
